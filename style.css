@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 100%
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 100px;
+    min-height: 100vh;
+    padding-top: 12rem;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container > div {
+    margin-top: 30px;
+}
+
+
+.title {
+    color: beige;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: beige;
+    margin-bottom: 5px;
+}
+
+input {
+    padding:  15px;
+    border: ridge 2px white;
+}
+
+select {
+    padding: 15px 0;
+    width: fit-content;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+#note {
+    margin-top: 50px;
+}
